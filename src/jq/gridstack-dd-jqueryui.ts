@@ -12,9 +12,9 @@ import { GridItemHTMLElement, DDDragInOpt } from '../types';
 
 // TODO: TEMPORARY until can remove jquery-ui drag&drop and this class and use HTML5 instead !
 // see https://stackoverflow.com/questions/35345760/importing-jqueryui-with-typescript-and-requirejs
-import * as $ from './jquery';
-export { $ };
-export * from './jquery-ui';
+// import * as $ from './jquery';
+// export { $ };
+// export * from './jquery-ui';
 
 /**
  * Jquery-ui based drag'n'drop plugin.
